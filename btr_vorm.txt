@@ -1,0 +1,308 @@
+ppn	btr
+075598612	adresboeken
+075656876	anekdoten
+374639280	antiquariaatscatalogi
+354920952	Argentinië ; reisgidsen
+148203760	Aruba ; reisgidsen
+075599856	atlassen
+136930875	Australië ; reisgidsen
+075657112	autobiografieën
+075665972	automatisering ; woordenboeken
+371368189	Baltische staten ; reisgidsen
+075600749	België ; reisgidsen
+075600765	bellettrie
+075601133	bibliografieën
+07565752X	bibliotheekcatalogi
+075657538	Bijbel ; atlassen
+075657546	Bijbel ; concordanties
+075657554	Bijbel ; encyclopedieën
+075679191	bijbels
+075602415	Bijbelse dagboeken
+075657570	Bijbelse dagkalenders
+305489984	bijbelverhalen voor de jeugd
+075657562	Bijbel ; woordenboeken
+07560132X	biografische woordenboeken
+202947890	biologie ; woordenboeken
+315098678	boulevardbladen
+213888009	Brazilië ; reisgidsen
+075637146	brieven
+075689316	Canada ; reisgidsen
+07560261X	catalogi
+354920979	Chili ; reisgidsen
+075602822	China ; reisgidsen
+075658224	columns
+07565833X	computerspelen
+190931019	Cuba ; reisgidsen
+317863444	Cyprus ; reisgidsen
+075635461	dagboeken
+238729990	Denemarken ; reisgidsen
+075627329	Duitsland ; reisgidsen
+075689308	economie ; woordenboeken
+075688174	Egypte ; reisgidsen
+075605295	encyclopedieën
+075605805	fabels
+075605821	facsimiles
+079253555	fanclubbladen
+240904826	Finland ; reisgidsen
+075606313	fotoboeken
+075606402	Frankrijk ; reisgidsen
+33113599X	Gambia ; reisgidsen
+075606720	gebeden
+299369897	gedichten@@
+075629429	gedichten ; oorspr. - andere talen
+075629437	gedichten ; oorspr. - Fries
+07562947X	gedichten ; oorspr. - Nederlands
+075629461	gedichten ; oorspr. - Nederlandse streektalen
+075629496	gedichten ; vertaald
+075687666	genealogieën
+075689421	geneeskunde ; woordenboeken
+075607719	gezangenbundels
+315098775	glossy's
+075686619	Griekenland ; reisgidsen
+075686600	Groot-Brittannië ; reisgidsen
+312820224	Guatemala ; reisgidsen
+234674717	hagiografie
+204243084	heemkundebladen
+075687615	Hongarije ; reisgidsen
+075609363	hoorspelen
+29811531X	hoorspelen voor de jeugd
+075635550	humor (vorm)
+075686651	Ierland ; reisgidsen
+316070254	IJsland ; reisgidsen
+075690020	India ; reisgidsen
+075609991	Indonesië ; reisgidsen
+075673932	interviews
+075610507	Israël ; reisgidsen
+075686554	Italië ; reisgidsen
+075670747	jaarboeken
+075689758	Japan ; reisgidsen
+075610752	jeugdbijbels
+075646471	jeugdbladen
+299369854	jeugdboeken@@
+075671875	jeugdboeken ; gedichten
+075610736	jeugdboeken ; informatie
+075689774	jeugdboeken ; informatie - aardrijkskunde
+07567355X	jeugdboeken ; informatie - beroepen
+07560681X	jeugdboeken ; informatie - biologie
+122125576	jeugdboeken ; informatie - computerkunde
+075606801	jeugdboeken ; informatie - geschiedenis
+07563483X	jeugdboeken ; informatie - gezondheid
+075634848	jeugdboeken ; informatie - godsdienst
+075676311	jeugdboeken ; informatie - handvaardigheid
+075684632	jeugdboeken ; informatie - koken/recepten
+075634856	jeugdboeken ; informatie - kunst
+075634872	jeugdboeken ; informatie - landen en volken
+075634864	jeugdboeken ; informatie - land- en tuinbouw
+075634880	jeugdboeken ; informatie - levensbeschouwing
+075634899	jeugdboeken ; informatie - maatschappij
+122244273	jeugdboeken ; informatie - milieu
+075660113	jeugdboeken ; informatie - muziek
+075634902	jeugdboeken ; informatie - natuurwetenschappen
+075634910	jeugdboeken ; informatie - onderwijs
+075634929	jeugdboeken ; informatie - opvoeding
+075685353	jeugdboeken ; informatie - recht
+188708529	jeugdboeken ; informatie - rekenen
+075660121	jeugdboeken ; informatie - seksualiteit
+075634937	jeugdboeken ; informatie - spel
+075634945	jeugdboeken ; informatie - sport
+075634953	jeugdboeken ; informatie - taal- en letterkunde
+075634961	jeugdboeken ; informatie - techniek
+303053267	jeugdboeken ; informatie - tekenen en schilderen
+075683660	jeugdboeken ; informatie - verkeer/vervoer
+075610744	jeugdboeken ; verhalen
+161914381	jeugd-software
+169933172	jeugd-software ; informatie - aardrijkskunde
+163119007	jeugd-software ; informatie - biologie
+162389752	jeugd-software ; informatie - computerkunde
+191719706	jeugd-software ; informatie - creatieve vaardigheden
+165425350	jeugd-software ; informatie - geschiedenis
+16592098X	jeugd-software ; informatie - godsdienst
+296470341	jeugd-software ; informatie - kunst
+162388888	jeugd-software ; informatie - muziek
+161914411	jeugd-software ; informatie - natuurwetenschappen
+168685213	jeugd-software ; informatie - rekenen
+161914438	jeugd-software ; informatie - spelen
+16191537X	jeugd-software ; informatie - taal
+21263688X	jeugd-software ; informatie - techniek
+183375580	jeugd-software ; informatie - verkeer/vervoer
+161931715	jeugd-software ; informatie - wereldoriëntatie
+161914152	jeugd-software ; spelen
+180645943	jeugd-software ; verhalen
+075610825	jeugdtoneel(stukken)
+075686678	Joegoslavië ; reisgidsen
+216080045	Kenia ; reisgidsen
+075673916	kerkbladen
+075611759	kinderbijbels
+30232433X	kindergebeden
+075611899	kinderversjes
+075660423	kleurboeken
+392540258	Kroatië  ; reisgidsen
+07566061X	kunstcatalogi
+111403316	landelijke dagbladen
+352693002	Laos ; reisgidsen
+075685000	leermiddelen
+075628805	leermiddelen ; aardrijkskunde
+181966646	leermiddelen ; algemene natuurwetenschappen
+07568537X	leermiddelen ; Arabisch
+075628813	leermiddelen ; bedrijfsadministratie
+075628821	leermiddelen ; bedrijfseconomie
+188274081	leermiddelen ; bedrijfsorganisatie
+07562883X	leermiddelen ; bedrijfsrekenen
+075628848	leermiddelen ; biologie
+075628856	leermiddelen ; bouwtechniek
+112492487	leermiddelen ; commerciële economie
+10652920X	leermiddelen ; computerboekhouden
+075628864	leermiddelen ; Duits
+075628880	leermiddelen ; economie
+075628902	leermiddelen ; elektrotechniek
+075628910	leermiddelen ; Engels
+075628929	leermiddelen ; expressievakken
+202240274	leermiddelen ; filosofie
+075628945	leermiddelen ; Frans
+075628953	leermiddelen ; Fries
+075628961	leermiddelen ; gereedschapsleer
+07562897X	leermiddelen ; geschiedenis
+075628988	leermiddelen ; gezondheidskunde
+075628996	leermiddelen ; godsdienst
+075629003	leermiddelen ; Grieks
+075687399	leermiddelen ; handelscorrespondentie
+075629011	leermiddelen ; handelskennis
+14224452X	leermiddelen ; horeca
+07562902X	leermiddelen ; huishoudkunde
+075629038	leermiddelen ; informatica
+075629046	leermiddelen ; installatietechniek
+075637472	leermiddelen ; Italiaans
+13707753X	leermiddelen ; kantoorpraktijk
+075629054	leermiddelen ; kennis der natuur
+075629062	leermiddelen ; kinderverzorging
+07561362X	leermiddelen ; kunstgeschiedenis
+075629070	leermiddelen ; land- en tuinbouw
+075629089	leermiddelen ; Latijn
+197590837	leermiddelen ; levensbeschouwing
+075629097	leermiddelen ; lezen
+166146560	leermiddelen ; lichaamsverzorging
+180834053	leermiddelen ; lichamelijke opvoeding
+075629100	leermiddelen ; maatschappijleer
+075629119	leermiddelen ; machineschrijven
+107693089	leermiddelen ; Maleis
+075629127	leermiddelen ; materialenkennis
+075629135	leermiddelen ; mechanische techniek
+075629143	leermiddelen ; metaalbewerken
+075690209	leermiddelen ; milieukunde
+075629151	leermiddelen ; motorvoertuigentechniek
+07562916X	leermiddelen ; muziek
+075629178	leermiddelen ; natuurkunde
+075629186	leermiddelen ; Nederlands
+075629194	leermiddelen ; omgangskunde
+075679809	leermiddelen ; Portugees
+075629208	leermiddelen ; rechtskennis
+075629216	leermiddelen ; rekenen
+075629224	leermiddelen ; Russisch
+075629232	leermiddelen ; scheikunde
+075629240	leermiddelen ; schrijven
+075629259	leermiddelen ; Spaans
+075629267	leermiddelen ; staatsinrichting
+075629275	leermiddelen ; statistiek
+075629283	leermiddelen ; stenografie
+075629291	leermiddelen ; studielessen
+075629305	leermiddelen ; taal
+105387002	leermiddelen ; techniek
+075613611	leermiddelen ; technisch tekenen
+100849407	leermiddelen ; tekstverwerken
+075687402	leermiddelen ; toerisme
+075685388	leermiddelen ; Turks
+075629313	leermiddelen ; veiligheidstechniek
+075629321	leermiddelen ; verkeer
+07562933X	leermiddelen ; verkoopkunde
+191732486	leermiddelen ; verpleegkunde
+075687992	leermiddelen ; verzorging
+075660776	leermiddelen voor anderstaligen
+075629348	leermiddelen ; warenkennis
+075629356	leermiddelen ; wereldoriëntatie
+075629364	leermiddelen ; wiskunde
+075613816	levensbeschrijvingen
+139091092	libretto's
+315098821	lifestylebladen
+075660903	literaire tijdschriften
+07561409X	liturgische boeken
+315472871	mannenbladen
+075689065	Marokko ; reisgidsen
+075688166	Mexico (land) ; reisgidsen
+353296341	Middelnederlandse letterkunde (tekstuitgaven)
+07912304X	milieueffectrapportages
+312833741	Mongolië ; reisgidsen
+075661500	muziekcatalogi
+075616076	mythen
+075616203	nationale bibliografieën
+244394237	necrologieën
+075616394	Nederland ; reisgidsen
+148203590	Nederlandse Antillen ; reisgidsen
+075616416	Nederlandse letterkunde (tekstuitgaven)
+375778969	Nepal ; reisgidsen
+075644045	nieuwsbladen
+242293743	Nieuw-Zeeland ; reisgidsen
+240903757	Noorwegen ; reisgidsen
+075675218	omroepbladen
+075686597	Oostenrijk ; reisgidsen
+111411297	opiniebladen
+075617846	overdenkingen
+075673924	personeelsbladen
+320698297	Peru ; reisgidsen
+075618699	platenboeken
+277179017	Polen ; reisgidsen
+075686570	Portugal ; reisgidsen
+075619407	preken
+075619415	prentenboeken
+079250130	productinformatiebladen
+26027643X	puzzelwoordenboeken
+075689413	recht ; woordenboeken
+111403332	regionale dagbladen
+07968226X	reisgidsen
+075620340	reisgidsen ; overige landen
+310708923	Roemenië ; reisgidsen
+31866285X	romans en novellen@@
+075629372	romans en novellen ; oorspr. - andere talen
+075629380	romans en novellen ; oorspr. - Fries
+075629402	romans en novellen ; oorspr. - Nederlands
+075629399	romans en novellen ; oorspr. - Nederlandse streektalen
+075629410	romans en novellen ; vertaald
+14611731X	Russische Federatie ; reisgidsen
+075621037	sagen en legenden
+075686627	Scandinavië ; reisgidsen
+075621398	schoolkranten
+331135590	Senegal ; reisgidsen
+341578487	Slovenië ; reisgidsen
+075622238	songboeken
+075622262	Sovjet-Unie ; reisgidsen
+075686562	Spanje ; reisgidsen
+075622629	sprookjes
+075689324	Sri Lanka ; reisgidsen
+075623285	stripverhalen
+162704186	Suriname ; reisgidsen
+075664305	techniek ; woordenboeken
+40916058X	telefoonboeken
+075686910	Thailand ; reisgidsen
+075624893	tijdschriften
+318662574	toneelstukken (teksten)@@
+177201576	toneelstukken (teksten) ; oorspr. - andere talen
+177201371	toneelstukken (teksten) ; oorspr. - Fries
+075624354	toneelstukken (teksten) ; oorspr. - Nederlands
+177201460	toneelstukken (teksten) ; oorspr. - Nederlandse streektalen
+177201606	toneelstukken (teksten) ; vertaald
+177254076	toneelstukken (teksten) ; vertaald in het Fries
+183074785	Tsjechië ; reisgidsen
+075688158	Tunesië ; reisgidsen
+07568666X	Turkije ; reisgidsen
+075664569	uitgeverscatalogi
+075624966	uittrekselboeken
+312823592	Verenigde Arabische Emiraten ; reisgidsen
+075625458	Verenigde Staten ; reisgidsen
+19073440X	Vietnam ; reisgidsen
+075665077	volksverhalen (teksten)
+315098872	vrouwenbladen
+075665204	wandelroutes
+075690330	wijkbladen
+075627752	woordenboeken
+172454891	Zuid-Afrika ; reisgidsen
+240904281	Zweden ; reisgidsen
+075686589	Zwitserland ; reisgidsen
