@@ -1,3 +1,7 @@
+# Summary
+Annif is a opensource tool for automated subject indexing and classification developed at the National Library of Finland. Annif uses a user given controlled vocabulary (e.g. thesaurus) and pre-labeled data (e.g. ebook with manually assigned subject) to train models that can than be used to assign subjects to a new input text.
+
+
 ## Analyse_brinkman_trefwoorden_v2
 Jupyter Notebook to analyse assigned Brinkeys in GGC-dataset and create vocab files to train a model in Annif.
 
