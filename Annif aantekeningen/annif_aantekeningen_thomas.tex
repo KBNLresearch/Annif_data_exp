@@ -37,7 +37,7 @@
   title=\lstname
   }
 
-\title{Automatisch onderwerpsontsluiting ebooks m.b.v. Annif}
+\title{Aantekeningen automatisch onderwerpsontsluiting ebooks m.b.v. Annif}
 \author{Thomas Haighton}
 
 \begin{document}
@@ -51,7 +51,7 @@
 \clearpage
 
 \section{Inleiding}
-Dit document bevat mijn aantekeningen m.b.t. het testen van Annif t.b.v. het automatisch toekennen van onderwerpen aan boeken binnen de KB. 
+Dit document bevat mijn aantekeningen m.b.t. het testen van Annif t.b.v. het automatisch toekennen van onderwerpen aan E-books binnen de KB. 
 
 De KB hanteert een eigen classificatiesysteem/thesaurus genaamd Brinkman catalogus. Op de \href{https://www.kb.nl/bronnen-zoekwijzers/zoekwijzers/meer-informatie-over-zoeken/trefwoorden-in-de-kb-catalogus}{KB website} is meer informatie te vinden m.b.t. de verschillende trefwoordcatalogi binnen de KB.
 
@@ -61,8 +61,7 @@ Bij aanvang van dit onderzoek was er sprake van een mogelijke samenwerking tusse
 
 \subsection{Overeenkomsten Thema en Brinkman}
 
-Het eerste onderzoek was gericht op het vinden van overeenkomsten tussen de brinkmanonderwerpen en de onderwerpen zoals deze stonden vastgelegd in Thema.
-N.B.1: Bij de vergelijking zijn alle termen eerst geconverteerd naar kleine letters (lowercase), omdat Thema onderwerpen altijd beginnen met een hoofdletter en in Brinkman alleen trefwoorden zoals plaatsnamen of personen met een hoofdletter beginnen.
+Het eerste onderzoek was gericht op het vinden van overeenkomsten tussen de brinkmanonderwerpen en de onderwerpen zoals deze stonden vastgelegd in Thema. Bij de vergelijking zijn alle termen eerst geconverteerd naar kleine letters (lowercase), omdat Thema onderwerpen altijd beginnen met een hoofdletter en in Brinkman alleen trefwoorden zoals plaatsnamen of persoonsnamen met een hoofdletter beginnen.
 \\
 
 \begin{tabular}{|l|l|l|}
@@ -77,18 +76,13 @@ Overeenkomende termen & 980       & \_   \\
 
 % TODO: discrepantie (zou 1008 moeten zijn?)
 
-Zie \href{https://github.com/KBNLresearch/Annif_data_exp/blob/master/compare_Brinkman_and_Thema.ipynb}{Jupyter Notebook op GitHub}
+Zie \href{https://github.com/KBNLresearch/Annif_data_exp/blob/master/compare_Brinkman_and_Thema.ipynb}{Jupyter Notebook op GitHub}\\[2pt]
 
-
+\noindent
 \textit{Constatering} \\
-Als we kijken naar een trefwoord wat alleen in Brinkman voorkomt, maar waarvan we verwachten dat deze ook in Thema zou moeten staan, b.v. 'autisme'.
-In Thema wordt 'autisme' vastgelegd in:
-- autisme en asperger syndroom
-- omgaan met autisme/asperger
+Als we kijken naar een trefwoord wat alleen in Brinkman voorkomt, maar waarvan we verwachten dat deze ook in Thema zou moeten staan, b.v. 'autisme'. In Thema wordt 'autisme' vastgelegd in 'autisme en asperger syndroom'en 'omgaan met autisme/asperger'. Het zou dus mogelijk zijn dat er meer overlap mogelijk is.
 
-Hieruit zou je op kunnen maken dat er mogelijk meer overlap gemaalt kan worden als dat gewenst is.
-
-N.B.2: Het CB heeft laten weten (tijdelijk) af te zien van dit project. Verder onderzoek met Thema is na dit bericht gestaakt en is er alleen gekeken naar Brinkmantrefwoorden.
+N.B.: Het CB heeft laten weten (tijdelijk) af te zien van dit project. Verder onderzoek met Thema is na dit bericht gestaakt en is er alleen gekeken naar Brinkmantrefwoorden.
 
 
 \subsection{GGC dataset}
@@ -112,6 +106,13 @@ Bekijk de sql query: \quad
 Bekijk de output: \quad \quad
 \href{run:resources/vraag_20190620.txt}{\textbf{\textit{vraag\_20190620.txt}}}
 \end{shaded}
+
+Tot nu toe zijn hier 3 verschillende datasets mee gemaakt, elk gesplits in een train (15\%), eval (5\%) en test set (80\%). 
+\begin{itemize}
+  \item ggc1.zip: bevat alleen samenvattingen/flaptekst van alle E-books.
+  \item ggc2.zip: bevat titel, ondertitel (wanneer deze aanwezig is) en samenvatting/flaptekst van alle E-books.
+  \item ggc3.zip: bevat titel, ondertitel (wanneer deze aanwezig is) en samenvatting/flaptekst van E-books die geen vormtrefwoorden hebben toegekend.
+\end{itemize}
 
 \textbf{Top 20 meest toegewezen Brinkmantrefwoorden}
 
@@ -154,9 +155,8 @@ Annif homepage: \url{http://annif.org/}
 
 \href{https://github.com/NatLibFi/Annif/wiki/Getting-started}{Officiele \textit{Getting Started} documentatie}
 
-Ik gebruik /Annif/tests als project map; zoals in de documentatie wordt aangeraden.
+Ik gebruik /Annif/tests als project map; zoals in de documentatie wordt aangeraden.\\*
 
-\vfill
 Annif commands/options help: \texttt{annif --help}
 
 \begin{enumerate}
@@ -170,13 +170,12 @@ Annif commands/options help: \texttt{annif --help}
   \item Gebruik de getrainde modellen (zie H. 3.5)
 \end{enumerate}
 
-% Notitie: Dev set gebruikt als evaluatie set. TODO: rename dev naar eval
-
 
 \subsection{Configuratie}
 
-Voorbeeld Annif configuratie en bijbehorende evaluatie.
+Voorbeeld Annif configuratie en bijbehorende evaluatie.\\*[1pt]
 
+\noindent
 \textbf{TF-IDF backend met snowball analyzer}
 
 \begin{lstlisting}
@@ -217,7 +216,7 @@ Documents evaluated:	613
 
 \noindent
 \textbf{Alle evaluatie uitkomsten} \\
-Ik heb tot nu toe de volgende backends getest: \textit{TF-IDF, Fasttext, Ensemble van de twee}. Daarnaast ook kort de twee verschillende analyzers geprobeerd: \textit{snowball} en \textit{simple}. Bij de twee verschillende analyzers heeft de snowball analyzer een hogere score, dus voor de volgende experimenten zal ik alleen nog deze gebruiken. \\
+Ik heb tot nu toe de volgende backends getest: \textit{TF-IDF, Fasttext, Ensemble van de twee, en Omikuji}. Daarnaast ook kort de twee verschillende analyzers geprobeerd: \textit{snowball} en \textit{simple}. Bij de twee verschillende analyzers heeft de snowball analyzer een hogere score, dus voor de volgende experimenten zal ik alleen nog deze gebruiken. \\
 \begin{shaded}
 Voor alle uitkomsten van de verschillende configuraties zie: \href{https://github.com/KBNLresearch/Annif_data_exp/blob/master/annif_uitkomsten.xlsx}{\textbf{\textit{annif\_uitkomsten.xlsx}}}
 \end{shaded}
@@ -283,11 +282,10 @@ Bijbehorende toegekende Brinkman term: \\
   \item \href{https://www.w3.org/TR/2005/WD-swbp-skos-core-spec-20051102/}{SKOS Core Vocabulary}
 \end{itemize}
 
-SKOS is een toepassing van RDF. SKOS standaard is specifiek te gebruken voor het vastleggen  van een thesaurus, gecontroleerde vocabulair e.d. SKOS maakt o.a. gebruik van synoniemen (\texttt{altLabel}) van een term (\texttt{Concept}, \texttt{prefLabel}) en de hierargische relatie (\texttt{broader}, \texttt{narrower}) tussen termen in een thesaurus. 
-
+SKOS is een toepassing van RDF. SKOS standaard is specifiek te gebruiken voor het vastleggen van een thesaurus, gecontroleerde vocabulair e.d. SKOS maakt o.a. gebruik van synoniemen (\texttt{altLabel}) van een term (\texttt{Concept}, \texttt{prefLabel}) en de hierargische relatie (\texttt{broader}, \texttt{narrower}) tussen termen in een thesaurus.\\*[2pt]
 
 \noindent
-\textbf{Snippet}
+\textbf{Voorbeeld snippet}
 
 \begin{lstlisting}[language=xml]
   <skos:Concept rdf:about="http://www.yso.fi/onto/yso/p21272">
@@ -353,14 +351,14 @@ Uiteindelijk besloten om eens een test te doen met de bijgevoegde SKOS (\textit{
       \item[\done] TF-IDF
       \item[\done] Fasttext
       \item Maui 
-      \item Omikuji
+      \item[\done] Omikuji
       \item Ensembles
     \end{todolist}
 
     \item Ook titel data gebruiken naast de samenvatting.
     \begin{todolist}
         \item[\done] Dataset gemaakt \href{https://github.com/KBNLresearch/Annif_data_exp/blob/master/vocab2.zip}{ggc2}.
-        \item Testen, vergelijken met uitkomsten ggc dataset, en uitkomsten documenteren.
+        \item Testen, vergelijken met uitkomsten ggc dataset, en uitkomsten documenteren. \textit{nog niet met alle backends getest. De backends die getest zijn blijken net iets beter te werken met titel data.}
         \item Test met weights: 2x titel in data gebruiken.
     \end{todolist}
     \item Documentatie! (die lees je nu)
@@ -368,14 +366,13 @@ Uiteindelijk besloten om eens een test te doen met de bijgevoegde SKOS (\textit{
     \textit{[05-03-2020] Met Sara besproken om Maui even te parkeren.}
     \begin{todolist}
       \item Minimale eisen SKOS bestand voor Annif met Maui backend (moeten we onderstaande punten gaan uitzoeken?).
-      \item Hebben wij een versie van de Brinkman catalogus waar nog de hierargischestructuur in staat vastgelegd (of is dit nog mogelijk uit de huidige TSV te halen d.m.v. ppn patroon)?
-      \item Hoe is er in de Brinkman catalogus omgegaan met synoniemen?
       \item[\done] Hulp vragen Rene Voorburg om SKOS te genereren via OAI-PMH (GGC\_THES) - zie zijn script op \url{https://github.com/renevoorburg/oai2linerec}.
       \item Omvormen verkregen 'SKOS' data naar daadwerkelijk SKOS-XML bestand. 
       \item[\wontfix] Evaluatie model per woord. (gaat Sara oppakken)
     \end{todolist}
+    \item Tweak backends en optimaliseer ensembles.
     \item \href{https://github.com/NatLibFi/Annif/wiki/Achieving-good-results}{Idee m.b.t evaluatie model} \\
-    Annif testen tegen 2 collectiespecialisten, ieder probeert een brinkmantrefwoord toe te wijzen, m.b.v. word2vec kijken of de termen dicht bij elkaar liggen?
+    Annif testen tegen 2 collectiespecialisten, ieder probeert een brinkmantrefwoord toe te wijzen, m.b.v. word2vec kijken of de termen dicht bij elkaar liggen (of andere methodes; onderzoeken!)?
   \end{todolist}
 
   
