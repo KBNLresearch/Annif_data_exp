@@ -6,7 +6,7 @@ Annif is a opensource tool for automated subject indexing and classification dev
 - `Annif aantekeningen` contains documentation as tex/pdf.
 
 ## Generate Annif dataset
-- `generate_dataset_annif.ipynb` is a Jupyter Notebook file to generate Annif dataset from GGC dataset.
+- `generate_dataset_annif.ipynb` is a Jupyter Notebook file to generate a dataset usable by Annif from GGC raw data.
 
 
 ## Preliminary investigation on Thema and Brinkman thesaurus
