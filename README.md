@@ -2,17 +2,17 @@
 Annif is a opensource tool for automated subject indexing and classification developed at the National Library of Finland. Annif uses a user given controlled vocabulary (e.g. thesaurus) and pre-labeled data (e.g. ebook with manually assigned subject) to train models that can than be used to assign subjects to a new input text. This repository contains files created while researching the use of Annif with ebook data from the KB.
 
 ## Results
-`annif_uitkomsten.xsl` contains all Annif evaluation outcomes of experiments using different backends and settings.
-`Annif aantekeningen` contains documentation as tex/pdf.
+- `annif_uitkomsten.xsl` contains all Annif evaluation outcomes of experiments using different backends and settings.
+- `Annif aantekeningen` contains documentation as tex/pdf.
 
 ## Generate Annif dataset
-`generate_dataset_annif.ipynb` is a Jupyter Notebook file to generate Annif dataset from GGC dataset.
+- `generate_dataset_annif.ipynb` is a Jupyter Notebook file to generate Annif dataset from GGC dataset.
 
 
 ## Preliminary investigation on Thema and Brinkman thesaurus
 
 ### Exploratory analysis of GGC-dataset
-`Analyse_brinkman_trefwoorden_v2.ipynb` is a Jupyter Notebook file to analyse assigned Brinkman subjects in the GGC-data and create dataset to train a model in Annif - this is an older file, part of the code is split of into a separate notebook `generate_dataset_annif.ipynb`.
+- `Analyse_brinkman_trefwoorden_v2.ipynb` is a Jupyter Notebook file to analyse assigned Brinkman subjects in the GGC-data and create dataset to train a model in Annif - this is an older file, part of the code is split of into a separate notebook `generate_dataset_annif.ipynb`.
 
 ### Compare Brinkman with Thema thesaurus
 Jupyter Notebook file to find overlap between Brinkman and Thema thesauri.
