@@ -19,8 +19,8 @@ Annif is an opensource tool for automated subject indexing and classification de
 - `generate_dataset_annif.ipynb` is a Jupyter Notebook file to generate a document corpus usable by Annif from raw GGC data.
 
 
-## Exploratory analysis of Brinkman subjects in GGC-dataset
-- `Exploratory_analysis_ggc_dataset.ipynb` is a Jupyter Notebook file to analyse assigned Brinkman subjects in the ebook GGC-data.
+## Initial analysis of Brinkman subjects in GGC-dataset
+- `Initial_analysis_ggc_dataset.ipynb` is a Jupyter Notebook file to get a feel for the Brinkman subjects available in the source data.
 
 
 ## Preliminary investigation on similarities between Thema and Brinkman thesaurus
