@@ -1,9 +1,9 @@
 ## Introduction
-Annif is a opensource tool for automated subject indexing and classification developed at the National Library of Finland. Annif uses a user given controlled vocabulary (e.g. thesaurus) and pre-labeled data (e.g. ebook with manually assigned subject) to train models that can than be used to assign subjects to a new input text. This repository contains files created while researching the use of Annif with ebook data from the KB.
+Annif is a opensource tool for automated subject indexing and classification developed at the National Library of Finland. Annif uses a user given controlled vocabulary (e.g. thesaurus) and pre-labeled data (e.g. ebooks with manually assigned subjects) to train models that can than be used to assign subjects to a new input text. This repository contains files created while researching the use of Annif with ebook data from the KB.
 
 ## Results
-- `annif_uitkomsten.xsl` contains all Annif evaluation outcomes of experiments using different backends and settings.
-- `Annif aantekeningen` contains documentation as tex/pdf.
+- `annif_uitkomsten.xlsx` contains all Annif evaluation outcomes of experiments using different backends and settings.
+- `Annif aantekeningen` folder contains documentation as tex/pdf.
 
 ## Generate document corpus for use in Annif
 - `generate_dataset_annif.ipynb` is a Jupyter Notebook file to generate a dataset usable by Annif from GGC raw data.
