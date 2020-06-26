@@ -1,15 +1,21 @@
-# Summary
-Annif is a opensource tool for automated subject indexing and classification developed at the National Library of Finland. Annif uses a user given controlled vocabulary (e.g. thesaurus) and pre-labeled data (e.g. ebook with manually assigned subject) to train models that can than be used to assign subjects to a new input text.
+## Introduction
+Annif is a opensource tool for automated subject indexing and classification developed at the National Library of Finland. Annif uses a user given controlled vocabulary (e.g. thesaurus) and pre-labeled data (e.g. ebook with manually assigned subject) to train models that can than be used to assign subjects to a new input text. This repository contains files created while researching the use of Annif with ebook data from the KB.
 
-## annif_uitkomsten.xsl
-Contains outcome of different experiments.
+## Results
+`annif_uitkomsten.xsl` contains all Annif evaluation outcomes of experiments using different backends and settings.
+`Annif aantekeningen` contains documentation as tex/pdf.
 
-## Analyse_brinkman_trefwoorden_v2
-Jupyter Notebook to analyse assigned Brinkman subjects in GGC-dataset and create dataset to train a model in Annif.
+## Generate Annif dataset
+`generate_dataset_annif.ipynb` is a Jupyter Notebook file to generate Annif dataset from GGC dataset.
 
 
-## compare_Brinkman_and_Thema
+## Preliminary investigation on Thema and Brinkman thesaurus
+
+### Exploratory analysis of GGC-dataset
+`Analyse_brinkman_trefwoorden_v2.ipynb` is a Jupyter Notebook file to analyse assigned Brinkman subjects in the GGC-data and create dataset to train a model in Annif - this is an older file, part of the code is split of into a separate notebook `generate_dataset_annif.ipynb`.
+
+### Compare Brinkman with Thema thesaurus
 Jupyter Notebook file to find overlap between Brinkman and Thema thesauri.
-- brinkman_thema_overlap.tsv: Brinkman subjects which are also found in Thema.
-
-
+- `Generate_thema_tsv.py` is a Python file to convert Thema thesaurus XML file into a TSV file to be used as Annif vocab.
+- `compare_Brinkman_and_Thema.ipynb` contains some exploratory investigation on similarities between Brinkman and Thema thesaurus.
+- `brinkman_thema_overlap.tsv` contains Brinkman subjects which are also found in Thema.
