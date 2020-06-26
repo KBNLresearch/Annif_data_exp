@@ -5,7 +5,7 @@ Annif is a opensource tool for automated subject indexing and classification dev
 - `annif_uitkomsten.xsl` contains all Annif evaluation outcomes of experiments using different backends and settings.
 - `Annif aantekeningen` contains documentation as tex/pdf.
 
-## Generate Annif dataset
+## Generate document corpus for use in Annif
 - `generate_dataset_annif.ipynb` is a Jupyter Notebook file to generate a dataset usable by Annif from GGC raw data.
 
 
