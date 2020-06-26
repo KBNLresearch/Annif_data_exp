@@ -8,15 +8,12 @@ Annif is a opensource tool for automated subject indexing and classification dev
 ## Generate document corpus for use in Annif
 - `generate_dataset_annif.ipynb` is a Jupyter Notebook file to generate a dataset usable by Annif from GGC raw data.
 
+## Exploratory analysis of GGC-dataset
+- `Analyse_brinkman_trefwoorden_v2.ipynb` is a Jupyter Notebook file to analyse assigned Brinkman subjects in the GGC-data and create dataset to train a model in Annif - this is an older file, part of the code (to gen corpus documents) is split of into a separate notebook `generate_dataset_annif.ipynb`.
+
 
 ## Preliminary investigation on Thema and Brinkman thesaurus
 Files located in _thema\_thes_ folder.
-
-### Exploratory analysis of GGC-dataset
-- `Analyse_brinkman_trefwoorden_v2.ipynb` is a Jupyter Notebook file to analyse assigned Brinkman subjects in the GGC-data and create dataset to train a model in Annif - this is an older file, part of the code is split of into a separate notebook `generate_dataset_annif.ipynb`.
-
-### Compare Brinkman with Thema thesaurus
-Jupyter Notebook file to find overlap between Brinkman and Thema thesauri.
 - `Generate_thema_tsv.py` is a Python file to convert Thema thesaurus XML file into a TSV file to be used as Annif vocab.
 - `compare_Brinkman_and_Thema.ipynb` contains some exploratory investigation on similarities between Brinkman and Thema thesaurus.
 - `brinkman_thema_overlap.tsv` contains Brinkman subjects which are also found in Thema.
