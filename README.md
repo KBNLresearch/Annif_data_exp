@@ -10,6 +10,7 @@ Annif is a opensource tool for automated subject indexing and classification dev
 
 
 ## Preliminary investigation on Thema and Brinkman thesaurus
+Files located in _thema\_thes_ folder.
 
 ### Exploratory analysis of GGC-dataset
 - `Analyse_brinkman_trefwoorden_v2.ipynb` is a Jupyter Notebook file to analyse assigned Brinkman subjects in the GGC-data and create dataset to train a model in Annif - this is an older file, part of the code is split of into a separate notebook `generate_dataset_annif.ipynb`.
